@@ -1,11 +1,9 @@
 #include "Genome.h"
 class Cell : public Genome
 {
-private:
+public:
     vector<Genome> choromosomes;
     int n;
-public:
-
     void tedad(){
         cin>>n;
     }
