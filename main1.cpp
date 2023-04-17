@@ -107,7 +107,7 @@ void animal(){
 	for(int i = 0; i < n; i++)
 	{
 		Cell k;
-		cout << "How many choromosomes you want animal" << i << " to have ?" << endl;
+		cout << "How many choromosomes you want animal" << i+1 << " to have ?" << endl;
 		k.tedad();
 		k.set_choromosomes();
 		animals.push_back(k);
