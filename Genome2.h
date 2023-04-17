@@ -6,9 +6,10 @@
 using namespace std;
 class Genome{
     protected:
+
+    public:
         string RNA;
         string DNA[2];
-    public:
         Genome();
         void vorodi();
         void vorodiCell();
