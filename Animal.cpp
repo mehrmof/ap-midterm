@@ -1,5 +1,5 @@
-#include"Genome.h"
-#include "Cell.h"
+#include"Genome2.h"
+#include "cell2.h"
 #include "Animal.h"
 #include<bits/stdc++.h>
 using namespace std;
