@@ -2,9 +2,9 @@
 #include"Genome2.h"
 class Cell: public Genome{
 	protected:
-		vector<Genome> choromosomes;
+
     public:
-        
+ 	vector<Genome> choromosomes;
         void tedad();
         void set_choromosomes();
         void sett(Genome genome);
